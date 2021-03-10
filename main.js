@@ -1,6 +1,6 @@
 var menugiu = $(".fa-bars").click(function(){
-    $(".hamburger-menu").show();
+    $(".hamburger-menu").show("slow");
 });
 var menusu = $(".fa-times").click(function(){
-    $(".hamburger-menu").hide();
+    $(".hamburger-menu").hide("fast");
 });
